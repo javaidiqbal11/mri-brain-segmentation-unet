@@ -44,7 +44,7 @@ Here N = Number of HGG/LGG data
   4. Finally, the data was randomly split into training, validation and test data with 60%:20%:20% of ratio respectively.
 ### Proposed Model
 Here we have proposed U-Net for our semnatic segmentation problem:-
-![](/unet.png)
+![](/method.JPG)
 ### Dice Coefficient & Dice Coefficient Loss Function
 - Wikipedia:- Sørensen's original formula was intended to be applied to discrete data. Given two sets, X and Y, it is defined as:-
 
