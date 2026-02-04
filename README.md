@@ -28,7 +28,7 @@ The data is collected from the Multimodal Brain Tumor Segmentation Challenge 201
 
 6. Provided data was already skull-stripped.
 
-### Task
+### 🎯 Task
 Segmentation of gliomas in pre-operative MRI scans. Use the provided clinically-acquired training data to produce segmentation labels.
 
 ## Methodology
