@@ -1,13 +1,14 @@
-# Multimodal Brain Tumor Segmentation 
+# 🧠 Multimodal Brain Tumor Segmentation
 
-## About Data 
-The data was collected from Multimodal Brain Tumor Segmentation Challenge 2018 (BraTS) Data.
-My google drive directory link (view only):- https://drive.google.com/drive/folders/1RSjZ6ASBMSPgUtFQAzvpBx1aW5VXPtAM?usp=sharing 
+Automatic segmentation of gliomas in pre-operative MRI scans using a U-Net based semantic segmentation pipeline.
 
-Copy of the model weights:- https://drive.google.com/file/d/11WJbOZ9KdNMwNAGX8ZYyyjD1b3nMH4uG/view?usp=sharing
+## 📂 Dataset Overview
+
+The data is collected from the Multimodal Brain Tumor Segmentation Challenge 2018 (BraTS).
+[Prepared Dataset](https://drive.google.com/drive/folders/1RSjZ6ASBMSPgUtFQAzvpBx1aW5VXPtAM?usp=sharing) and [Model Weights](https://drive.google.com/file/d/11WJbOZ9KdNMwNAGX8ZYyyjD1b3nMH4uG/view?usp=sharing)
 
 ### Imaging Data Description
-1. All BraTS multimodal scans were available as NIfTI files (.nii.gz) having different modalitied:-
+1. All BraTS multimodal scans were available as NIfTI files (.nii.gz) having different modalities:-
   - Native (T1) 
   - Post-contrast T1-weighted (T1Gd)
   - T2-weighted (T2) 
@@ -19,11 +20,11 @@ Copy of the model weights:- https://drive.google.com/file/d/11WJbOZ9KdNMwNAGX8ZY
   - Necrotic and non-enhancing tumor core (NCR/NET — label 1)
   - Remaining Region (label 0)
   
-3. The data were distributed after their pre-processing, i.e. co-registered to the same anatomical template, interpolated to the same resolution (1 mm^3) and skull-stripped.
+3. The data were distributed after their pre-processing, i.e., co-registered to the same anatomical template, interpolated to the same resolution (1 mm^3), and skull-stripped.
 
-4. The data consist of two folders LGG(Lower Grade Glioma) and HGG(High Grade Glioma). Each consists mri scan of a patient, each folder itself having four modaltlies and the segmentated results. 
+4. The data consist of two folders LGG(Lower Grade Glioma) and HGG(High Grade Glioma). Each consists mri scan of a patient, each folder itself having four modalities and the segmentated results. 
 
-5. As all the scans were formated in NIfTI format (i.e. .nii.gz), so we have used  SimpleITK library for converting .nii.gz format to 3D numpy array. 
+5. As all the scans were formatted in NIfTI format (i.e., .nii.gz), we have used the  SimpleITK library for converting .nii.gz format to a 3D numpy array. 
 
 6. Provided data was already skull-stripped.
 
