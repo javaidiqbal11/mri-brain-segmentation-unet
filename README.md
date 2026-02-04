@@ -131,3 +131,4 @@ def dice_coef_loss(y_true, y_pred):
 1. **BraTS 2017/2018 Dataset**
 
    * [Official BraTS 2017 Registration & Dataset](https://www.med.upenn.edu/sbia/brats2017/registration.html)
+   * [CMC Journal Research Paper Link](https://www.techscience.com/journal/cmc)
