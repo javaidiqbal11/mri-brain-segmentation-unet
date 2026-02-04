@@ -82,11 +82,4 @@ Here we have proposed U-Net for our semnatic segmentation problem:-
 | HGG Set-2   |   0.9855   |
 | HGG Set-3   |   0.9793   |
 | LGG         |   0.9950   |
-## License
-MIT © [Aryaman Sinha](https://github.com/as791/)
 
-## References
-- https://www.med.upenn.edu/sbia/brats2018.html
-- https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient
-- https://www.jeremyjordan.me/semantic-segmentation/
-- https://ieeexplore.ieee.org/document/6975210
