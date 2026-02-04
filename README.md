@@ -104,14 +104,14 @@ def dice_coef_loss(y_true, y_pred):
 
 ### HGG Result Samples
 
-![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-1.png)
-![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-2.png)
-![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-3.png)
+![](https://github.com/javaidiqbal11/mri-brain-segmentation-unet/blob/main/Result%20Samples/HGG-1.png)
+![](https://github.com/javaidiqbal11/mri-brain-segmentation-unet/blob/main/Result%20Samples/HGG-2.png)
+![](https://github.com/javaidiqbal11/mri-brain-segmentation-unet/blob/main/Result%20Samples/HGG-3.png)
 
 ### LGG Result Samples
 
-![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/LGG-1.png)
-![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/LGG-2.png)
+![](https://github.com/javaidiqbal11/mri-brain-segmentation-unet/blob/main/Result%20Samples/LGG-1.png)
+![](https://github.com/javaidiqbal11/mri-brain-segmentation-unet/blob/main/Result%20Samples/LGG-2.png)
 
 ---
 
